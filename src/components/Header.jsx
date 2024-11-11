@@ -8,6 +8,7 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import LoginLogoutLink from "@/components/LoginLogoutLink"
 import avatarImage from '@/images/avatar.jpg'
+import CreatePostLink from "@/components/CreatePostLink";
 
 function CloseIcon(props) {
   return (
@@ -138,6 +139,7 @@ function DesktopNavigation(props) {
         <NavItem href="/speaking">Speaking</NavItem>
         <NavItem href="/uses">Uses</NavItem>
         <LoginLogoutLink />
+        <CreatePostLink/>
       </ul>
     </nav>
   )
